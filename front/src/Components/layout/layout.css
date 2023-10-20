@@ -1,0 +1,7 @@
+.layoutMain {
+    padding: 50px 0px 0px 380px;
+    background-color: #e1e1e1;
+    background-repeat: repeat;
+    max-height: 100vh; /* Set a maximum height */
+    overflow-y: auto; /* Add scrollbar for overflow */
+  }

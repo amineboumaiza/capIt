@@ -1,0 +1,39 @@
+/* Mobile version (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .s2 {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .s1 {
+    padding-bottom: 0;
+  }
+
+  .homeMain {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: auto auto; /* Adjust the rows to auto */
+    grid-template-areas:
+      "s1"
+      "s2";
+
+    grid-row-gap: 0; /* Remove the space between s1, s2, and s5 */
+  }
+}
+
+/* Responsive CSS for devices with larger screens */
+/* You can adjust the min-width value as needed */
+@media screen and (min-width: 769px) {
+  .homeMain {
+    grid-template-rows: 1fr 1fr 1fr; /* Change back to the original template for larger screens */
+  }
+}
+
+.homeMain {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: auto auto; /* Adjust the rows to auto */
+  grid-template-areas:
+    "s1"
+    "s2";
+}

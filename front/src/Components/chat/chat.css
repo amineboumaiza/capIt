@@ -1,0 +1,221 @@
+.Container {
+  height: 78vh;
+  width: 90vw;
+  display: flex;
+  gap: 0.5rem;
+  background-color: white;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 25%;
+  color: #333;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px white;
+  background-image: linear-gradient(#b691d2, #ffffff);
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 2rem;
+}
+.center {
+  width: 25%;
+  background-color: #d4bbe7;
+  padding: 1rem;
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#b691d2, #ffffff);
+}
+
+.right {
+  width: 50%;
+  background-color: #e8d1f8;
+  padding: 2rem;
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  background-image: linear-gradient(#b691d2, #ffffff);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+@media screen and (min-width: 520px) and (max-width: 720px) {
+  .Container .container {
+    grid-template-columns: 35% 65%;
+  }
+}
+.pic2 {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.pic {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.section1 {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  margin-bottom: 2px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  cursor: pointer;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.sections:hover,
+.section1:hover {
+  background-color: #e1e1e1;
+}
+
+.sections img {
+  border-radius: 50%;
+}
+
+.sections p {
+  font-weight: bold;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile img {
+  height: 7rem;
+  width: 7rem;
+  max-inline-size: 100%;
+  border-radius: 50%;
+}
+
+.profile p {
+  font-size: 25px;
+  font-family: Verdana, sans-serif;
+}
+
+.button {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(8, 126, 231);
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: rgb(3, 72, 133);
+}
+
+.button:active {
+  background-color: rgb(6, 70, 126);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transform: translateY(1px);
+}
+.chatpic {
+  width: 4rem;
+}
+.titre {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  text-shadow: 2px 2px 4px white;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;
+}
+.contactbox {
+  background-image: linear-gradient(#b691d2, #ffffff);
+  padding: 1rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  height: 85%;
+  max-height: 85%;
+  width: 100%;
+}
+
+.input {
+  display: flex;
+}
+
+.main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;
+}
+
+.discussion {
+  background-image: linear-gradient(#b691d2, #ffffff);
+  padding: 1rem;
+
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  height: 90%;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;
+}
+
+.reciever {
+  display: flex;
+  margin-left: 3rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recieverpic {
+  height: 3rem;
+}
+
+.mgs {
+  /* overflow-y: auto; */
+
+  max-height: 90%;
+}

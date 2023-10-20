@@ -1,0 +1,23 @@
+.sideBarButtonsGroup .button {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #0081B4;
+    height: 40px;
+  }
+
+.sideBarButtonsGroup  .button:hover {
+    background-color:#F4D9E7;
+    color: #0081B4;
+}
+
+.sideBarButtonsGroup{
+    margin-top: 60%;
+}
+
+.sidebarHeader{
+    width: 325px;
+}
+.sidebarBody{
+    width:325px;
+}

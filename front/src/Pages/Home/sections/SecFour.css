@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  #secFour {
+    margin-top: 500px !important;
+  }
+  #secFourTitle {
+    margin-top: -450px;
+  }
+}

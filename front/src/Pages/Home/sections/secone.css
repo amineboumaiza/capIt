@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@media screen and (max-width: 768px) {
+  .secOneMain {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 0;
+  }
+  .secLeft {
+  }
+  .secLeftParagraphs {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 15%;
+  }
+  .secOneLeftParagraphs {
+    font-size: 250%;
+  }
+
+  .secOneRightImage {
+    position: relative;
+    object-fit: cover;
+    height: 100vh;
+    width: 130%;
+    margin-top: 72%;
+    scale: 0.8;
+    margin-left: -50%;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .secOneMain {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .secLeftParagraphs {
+    margin-top: 30%;
+    margin-left: 15%;
+  }
+  .secOneLeftParagraphs {
+    font-size: 250%;
+  }
+
+  .secOneRightImage {
+    position: relative;
+    right: 0px;
+    left: 150px;
+    object-fit: cover;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .secOneMain {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .secLeftParagraphs {
+    margin-top: 30%;
+    margin-left: 15%;
+  }
+  .secOneLeftParagraphs {
+    font-size: 150%;
+  }
+
+  .secOneRightImage {
+    position: absolute;
+    object-fit: cover;
+    right: 0;
+    height: 100vh;
+  }
+}
+
+.secOneLeftEm {
+  color: #ff6b61;
+}
+
+.secOneLeftSpan {
+  color: #03a4ed;
+}
+.secLeftBackground {
+  z-index: -1;
+  position: absolute;
+}
+.secOneLeftParagraphs {
+  font-family: "Poppins", sans-serif;
+}
+.secLeft {
+  width: 100%;
+}

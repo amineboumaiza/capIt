@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+  .SecTwoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1000px !important;
+    padding-top: 0;
+  }
+
+  .SecTwoTitle #SecTwoTitleBlue h1 {
+    color: #03a4ed;
+  }
+
+  .SecTwoTitle #SecTwoTitleRedish h1 {
+    color: #ff6b61;
+    opacity: 25%;
+    transform: rotate(180deg) scale(1, -1);
+  }
+
+  .cards {
+    scale: 0.8; /* Change the scale to 0.6 */
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center; /* Add align-items */
+    position: relative;
+    bottom: 90%;
+    width: 30%; /* Set width to 100% */
+    margin-left: 30%;
+    margin-top: -100%;
+  }
+}
+
+/* Responsive CSS for devices with larger screens */
+@media (min-width: 769px) {
+  .SecTwoMain {
+    display: flex;
+    justify-content: center;
+  }
+
+  .SecTwoTitle #SecTwoTitleBlue h1 {
+    color: #03a4ed;
+  }
+
+  .SecTwoTitle #SecTwoTitleRedish h1 {
+    color: #ff6b61;
+    opacity: 25%;
+    transform: rotate(180deg) scale(1, -1);
+  }
+
+  .cards {
+    scale: 0.8;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 90%;
+  }
+
+  #secTwoTitle {
+    padding-bottom: -100px !important;
+  }
+}

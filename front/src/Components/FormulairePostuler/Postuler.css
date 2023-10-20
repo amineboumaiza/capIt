@@ -1,0 +1,59 @@
+.PostulerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 0 1rem;
+}
+
+.multiselect-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.PostulerForm Form.Control,
+.PostulerForm InputNumber {
+  width: 100%;
+  max-width: 400px;
+}
+
+.SendPost {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.2s;
+  margin: 1rem auto;
+  max-width: 300px;
+}
+
+.SendPost span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.SendPost svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .PostulerForm Form.Control,
+  .PostulerForm InputNumber {
+    max-width: 100%;
+  }
+
+  .SendPost {
+    max-width: 100%;
+  }
+}

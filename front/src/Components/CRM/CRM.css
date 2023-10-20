@@ -1,0 +1,94 @@
+.crm-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crm-profile-picture {
+  width: 45px;
+  height: 45px;
+}
+
+/* Add any other styles for your component here */
+
+.d-flex > div {
+  margin-bottom: 40px;
+}
+
+.vertical-line {
+  border-left: 1px solid #ccc;
+  margin: 1rem 0;
+  margin-right: 3rem;
+}
+
+@media (max-width: 991px) {
+  .vertical-line {
+    display: none;
+  }
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+}
+
+#carta {
+  margin-left: 1rem;
+  width: 20rem;
+  align-items: center;
+}
+
+/* Fix card size */
+#carta .card {
+  width: 100%;
+  max-width: 20rem;
+}
+
+@media (max-width: 991px) {
+  #carta {
+    width: 100%;
+  }
+}
+.tick-image {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+}
+
+.butt {
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  width: 8.5em;
+  height: 2.9em;
+  border: #3654ff 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+  justify-content: center;
+  align-items: center;
+}
+
+.butt:hover {
+  background-color: #3654ff;
+  color: rgb(255, 247, 247);
+  cursor: pointer;
+}
+
+.butt svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.butt:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em;
+}

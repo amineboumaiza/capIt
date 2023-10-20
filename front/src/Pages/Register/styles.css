@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.register{
+    margin :3vh auto;
+    width:80vw;
+    height:80vh;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(190,187,187,.6);
+    display: flex;    
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    z-index: 1;
+    
+}
+.register-cover{
+    background-image: url('../../images/pexels-sora-shimazaki-5668842.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+.register-content{
+    width: 50%;
+    text-align: center;
+    background-image: url("../../images/dqs.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    --primary-color: #645bff;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+  }
+  
+  button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  button:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  button:hover .arrow:before {
+    right: 0;
+  }
+.inscription{
+  margin-top: 2%;
+  margin-left: 39%;
+}
+.form-container {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #323940;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  position: relative;
+  left: 39% ;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+.title{
+  color:#D9EDFF;
+}
+.photo{
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top:-0;
+  background-image: url("../../images/tables-left-dec.png");
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 768px) {
+  .register {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .register-cover {
+    display: none;
+  }
+  
+  .register-content {
+    width: 100%;
+  }
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  --primary-color: #645bff;
+  --secondary-color: #fff;
+  --hover-color: #111;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+}
+
+button .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+button .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+button:hover .arrow {
+  background: var(--secondary-color);
+}
+
+button:hover .arrow:before {
+  right: 0;
+}
+
+.inscription {
+  margin-top: 2%;
+  margin-left: 39%;
+}
+.form-container-connexion {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 20%;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #323940;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  position: relative;
+  left: 39% ;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+.title{
+  color:#D9EDFF;
+}
+.compte{
+    font-size: 1rem;
+    color:#111;
+   
+  }

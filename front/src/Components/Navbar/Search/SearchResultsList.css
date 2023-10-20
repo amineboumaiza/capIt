@@ -1,0 +1,14 @@
+.results-list {
+  position: absolute;
+  top: 100%; /* Position the result list below the input wrapper */
+  left: 0; /* Align the result list with the left edge of the input wrapper */
+  margin-left: 26%;
+  width: 25%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  overflow-y: auto;
+  z-index: 999; /* Add z-index to ensure it stays above other elements */
+}

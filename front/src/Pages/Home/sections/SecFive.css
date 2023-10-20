@@ -1,0 +1,12 @@
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+  #secFiveTitle {
+    margin-top: -1000px !important;
+  }
+  #Testimonial {
+    margin-top: -1050px;
+  }
+}

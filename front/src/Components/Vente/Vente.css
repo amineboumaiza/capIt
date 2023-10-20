@@ -1,0 +1,27 @@
+/*Vente.css*/
+label {
+    margin : 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+.form-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .fournisseur{
+      width: 30%;
+  }
+
+  .societe{
+    display: flex;
+    align-items: center;
+  }
+
+  

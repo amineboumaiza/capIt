@@ -1,0 +1,96 @@
+/* company-profile.css */
+
+/* Container for the whole component */
+.company-profile-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+/* Background cover */
+.background-cover img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Add icon for modifying background cover */
+.background-cover-icon {
+  position: absolute;
+  top: 40px; /* adjust the value to position the icon vertically */
+  right: -90px; /* position the icon to the top right corner */
+  z-index: 1;
+  margin-right: 10%; /* add z-index to position the icon above the background cover */
+  color:#fff;
+  font-size: 20px;
+}
+.background-cover-icon:hover{
+  color:#fff;
+}
+
+/* Profile photo */
+.profile-photo-container {
+  margin-top: -60px;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+/* Company name */
+.company-name {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+/* Company bio */
+.company-bio {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Company website */
+.company-website {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.website-icon {
+  margin-right: 5px;
+}
+
+.company-website a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Company social media */
+.company-social-media {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.social-media-icon {
+  margin: 0 5px;
+}
+
+.company-social-media a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Hover effect on social media icons */
+.company-social-media a:hover {
+  color: #007bff;
+}
